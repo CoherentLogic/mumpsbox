@@ -13,5 +13,7 @@ program
     .command('list-engines', 'list available MUMPS implementation')
     .command('use <engine>', 'set the current MUMPS implementation')
     .command('init', 'initialize a mumpsbox package')
+    .command('auth', 'authenticate to MUMPSHub registry')
+    .command('publish', 'publish to MUMPSHub registry')
     .parse(process.argv);
 
